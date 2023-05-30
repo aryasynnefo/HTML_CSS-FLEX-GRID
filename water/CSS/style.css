@@ -1,30 +1,41 @@
 .image1{
-    /* padding:0%; */
-    /* margin-bottom: 500px; */
+
     background-image: url(../IMAGES/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height:600px;
 }
 
-.btn1:hover{
-    background-color:black;
-}
 
-.h1{
+
+.h4{
     font-family: 'Raleway', sans-serif;
     text-align: start;
     margin-left: 50px;
-    /* background-attachment: fixed; */
+    height: 10px;
+    background-attachment: fixed;
 }
 
 .a1{
+    letter-spacing: 1px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 18px;
     font-family: 'Raleway', sans-serif;
-    background-color: white;
-    text-align: right;
-    padding-right: 40px;
-    margin-bottom: 30px;
-    /* background-attachment: fixed; */
+    font-size: 13px;
+}
+
+.para .b1{
+    font-family: 'Raleway', sans-serif;
+    width: 200px ;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px ;
+    background-color: darkslateblue;
+    color: white;
 }
 
 .para{
@@ -33,11 +44,11 @@
     text-align: center;
     position: absolute;
     transform: translateY(50%);
-    top: 50%;
+    top: 35%;
     width: 100%;
 }
 
-.para button{
+.para .b2{
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     width: 200px;
@@ -45,11 +56,16 @@
     text-align: center;
     color:white;
     background: transparent;
+    border: 2px white solid;
+}
+
+.para .b2:hover{
+    background-color: black;
 }
 
 .img1{
     padding: 60px;
-    margin-left:80px ;
+    margin-left:100px ;
 }
 
 .img2{
@@ -57,9 +73,12 @@
     margin-right: 80px;
 }
 
+
 .p2 h1{
     font-family: 'Raleway', sans-serif;
     color: black;
+    margin-right: 100px;
+    
 }
 
 .p2{
@@ -67,6 +86,7 @@
     padding: 100px;
     font-size: 15px;
     color: gray;
+    
 
 }
  .p2 button{
@@ -120,6 +140,7 @@
     border: 2px ;
     background-color: darkslateblue;
     color: white;
+    letter-spacing: 2px;
 }
 
 .p4 h1{
@@ -143,7 +164,9 @@
     padding: 15px;
     background-color: darkslateblue;
     color: white;
-    margin-left: 500px;
+    border: 2px white solid;
+    margin-left:500px;
+    letter-spacing: 2px;
 }
 
 .div1 .img4{
@@ -171,14 +194,13 @@
 
 .img5{
     margin-bottom: 20px;
-    background-image: url(../IMAGES/small.png);
+    background-image: url(../IMAGES/customer.png);
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
     margin-bottom: 10px;
-
 }
 .p6{
+    font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
     padding: 10px;
@@ -202,6 +224,8 @@
     background-color:darkslateblue;
     color: white;
     width: 300px;
+    border: 2px white solid;
+    letter-spacing: 2px;
     
 }
 
